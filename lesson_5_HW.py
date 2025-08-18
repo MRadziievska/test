@@ -4,19 +4,20 @@
 # print(rating)
 
 #2
-element = input("Please, enter 4 words: ").split()
-print(element)
+# element = input("Please, enter 4 words: ").split()
+# print(element)
+#
+# del_item = int(input("Delete word: "))
+# element.pop(del_item-1)
+# print(element)
+#
+# del_item = int(input("Delete word: "))
+# element.pop(del_item-1)
+# print(element, element.append("Maryna"))
 
-del_item = int(input("Delete word: "))
-element.pop(del_item-1)
-print(element)
-
-del_item = int(input("Delete word: "))
-element.pop(del_item-1)
-print(element, element.append("Maryna"))
-
-
-
+#3
+words = input("Please, enter words: ").split()
+print(len(words))
 
 
 
